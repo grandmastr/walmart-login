@@ -1,0 +1,138 @@
+/*imported fonts*/
+@font-face {
+  font-family: "Lato Light";
+  src: url("../fonts/Lato-Light.ttf"); }
+@font-face {
+  font-family: "Lato Bold";
+  src: url("../fonts/Lato-Bold.ttf"); }
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../fonts/Lato-Regular.ttf"); }
+/*===end of imported fonts====*/
+.bb1, .tb {
+  margin-top: 6%;
+  border-radius: 20px !important;
+  border: none;
+  outline: none;
+  background: #0065ff;
+  color: #fff;
+  font-size: 1em !important;
+  font-weight: bolder;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease; }
+  .bb1:hover, .tb:hover {
+    background: #7fb2ff; }
+
+.tb {
+  color: #000 !important;
+  background: transparent !important;
+  border: 1px solid #000;
+  font-size: 0.9em !important; }
+  .tb:hover {
+    opacity: 0.4; }
+
+body {
+  background: #fff;
+  height: auto;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%; }
+
+a, a:hover, a:focus {
+  color: #000 !important; }
+
+h1 {
+  color: #000;
+  font-size: 2.1em !important;
+  font-family: "Lato Regular" !important; }
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 1.8em !important;
+      margin-top: 4%; } }
+
+.ma {
+  margin: auto; }
+
+.image-logo {
+  width: 15% !important; }
+  @media (max-width: 800px) {
+    .image-logo {
+      width: 50% !important;
+      margin-top: 12%; } }
+  .image-logo:hover {
+    outline: 1px solid #000; }
+
+.forg {
+  max-width: 50%; }
+
+.log-form {
+  width: 33%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 6px;
+  border: 1px solid #efefef;
+  margin: auto;
+  background: #fff; }
+  @media (max-width: 800px) {
+    .log-form {
+      width: 40% !important; } }
+  @media (max-width: 480px) {
+    .log-form {
+      width: 98% !important;
+      border: none !important; } }
+  .log-form .sign-in-text {
+    color: #6d6e71;
+    font-weight: lighter;
+    font-size: 1em;
+    font-family: "Lato Bold"; }
+  .log-form .field-labels {
+    padding-left: 4%;
+    color: #6d6e71;
+    opacity: 0.9;
+    font-weight: lighter;
+    font-size: 1em;
+    font-family: "Lato Bold"; }
+    @media (max-width: 800px) {
+      .log-form .field-labels {
+        padding-left: 2% !important; } }
+  .log-form .form-group {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #818285;
+    border-radius: 3px;
+    padding-left: 3%;
+    padding-right: 1%; }
+    .log-form .form-group:focus-within {
+      border: 1.8px solid #000 !important; }
+    .log-form .form-group .show-pass {
+      font-size: 0.9em;
+      cursor: pointer;
+      user-select: none; }
+    .log-form .form-group input[type="email"], .log-form .form-group input[type="password"], .log-form .form-group input[type="text"], .log-form .form-group input:hover, .log-form .form-group input:focus {
+      background: transparent;
+      margin-top: 2%;
+      width: 100%;
+      border: none !important;
+      outline: none;
+      box-shadow: none; }
+    .log-form .form-group input[type="password"], .log-form .form-group input[type="text"] {
+      background: transparent;
+      margin-top: 2.5% !important;
+      width: 84% !important; }
+
+.footer {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  position: absolute;
+  bottom: 0;
+  background: #f8f8f8; }
+  .footer .footer-content {
+    width: 33%; }
+
+/*# sourceMappingURL=style.css.map */

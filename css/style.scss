@@ -1,0 +1,130 @@
+@import "fonts";
+@import "buttons";
+body{
+  background:#fff;
+  height:auto;
+  width:100%;
+  padding: {
+    top: 3%;
+    bottom: 3%;
+  }
+}
+a,a:hover,a:focus{
+  color:#000 !important;
+}
+h1{
+  color:#000;
+  font:{
+    size:2.1em !important;
+    family: "Lato Regular" !important;
+  }
+  @media(max-width:800px){
+    font:{
+      size:1.8em !important;
+    }
+    margin-top:4%;
+  }
+}
+.ma{
+  margin:auto;
+}
+.image-logo{
+  width:15% !important;
+  @media(max-width:800px){
+    width:50% !important;
+    margin-top:12%;
+  }
+  &:hover{
+    outline:1px solid #000;
+  }
+}
+.forg{
+  max-width:50%;
+}
+.log-form{
+  width:33%;
+  padding:{
+    top:2%;
+    bottom:2%;
+    left:3%;
+    right:3%;
+  }
+  border-radius:6px;
+  border:1px solid #efefef;
+  margin:auto;
+  background:#fff;
+  @media(max-width:800px){
+    width:40% !important;
+  }
+  @media(max-width:480px){
+    width:98% !important;
+    border: none !important;
+  }
+  .sign-in-text{
+    color:#6d6e71;
+    font:{
+      weight:lighter;
+      size:1em;
+      family: "Lato Bold" ;
+    }
+  }
+  .field-labels{
+    padding-left:4%;
+    @media(max-width:800px){
+      padding-left:2% !important;
+    }
+    color:#6d6e71;
+    opacity: 0.9;
+    font:{
+      weight:lighter;
+      size:1em;
+      family: "Lato Bold";
+    }
+  }
+  .form-group {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #818285;
+    border-radius: 3px;
+    padding: {
+      left: 3%;
+      right: 1%;
+    }
+    &:focus-within {
+      border:1.8px solid #000 !important;
+    }
+    .show-pass {
+      font: {
+        size: 0.9em;
+      }
+      cursor: pointer;
+      user-select: none;
+    }
+    input[type="email"], input[type="password"],input[type="text"], input:hover, input:focus {
+      background:transparent;
+      margin-top: 2%;
+      width: 100%;
+      border: none !important;
+      outline: none;
+      box-shadow: none;
+    }
+    input[type="password"],input[type="text"] {
+      background: transparent;
+      margin-top: 2.5% !important;
+      width: 84% !important;
+    }
+  }
+}
+.footer{
+  width:100%;
+  padding:{
+    top:1%;
+    bottom:1%;
+  }
+  position: absolute;
+  bottom:0;
+  background: #f8f8f8;
+  .footer-content{
+    width:33%;
+  }
+}
